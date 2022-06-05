@@ -13,5 +13,12 @@ class Config:
     MAIL_USE_TLS = True
     MAIL_USERNAME = os.environ.get('EMAIL_USER')
     MAIL_PASSWORD = os.environ.get('EMAIL_PASS')
+    Host = os.environ.get('Host')
+    Database= os.environ.get('Database')
+    User= os.environ.get('User')
+    Port= os.environ.get('Port')
+    Password= os.environ.get('Password')
+    # URI= os.environ.get('URI')
+
 
 # DATABASE_URI=postgresql://postgres:harsh2022@localhost:5432/blogapp
